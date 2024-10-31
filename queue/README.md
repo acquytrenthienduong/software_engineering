@@ -1,6 +1,6 @@
 ## Queue điển hình như Rabitmq
 
-khá tương đồng với kafka, khác biệt lớn nhất là message sau khi được consume sẽ biến mất khỏi queue
+khá tương đồng với kafka, khác biệt lớn nhất là message sau khi được consume sẽ biến mất khỏi queue, và kafka có thể cấu hình batch message (lấy 1 lần nhiều message)
 
 #### Điểm Giống Nhau giữa RabitMQ vs Kafka
 Phân tán và thông điệp bất đồng bộ: Cả Kafka và RabbitMQ đều là hệ thống xử lý thông điệp bất đồng bộ, giúp phân tán dữ liệu giữa các hệ thống, ứng dụng.

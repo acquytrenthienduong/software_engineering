@@ -72,7 +72,10 @@ const goodBulb = new LightBulb();
 const led = new LED();
 
 const goodSwitch1 = new Switch(goodBulb);
-switch1.toggle(); // "Light bulb is on"
+goodSwitch1.toggle(); // "Light bulb is on"
 
-const switch2 = new Switch(led);
-switch2.toggle(); // "LED is on"
+const goodSwitch2 = new Switch(led);
+goodSwitch2.toggle(); // "LED is on"
+
+// kết luận: module cấp cao chỉ được phụ thuộc vào abtract/interface của module cấp 
+// việc phụ thuộc vào 1 module/class đã implement chi tiết là vi phạm

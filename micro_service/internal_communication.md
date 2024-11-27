@@ -6,4 +6,3 @@ Phương thức	                Đặc điểm	                    Khi nào nên
 Queue (Kafka, RabbitMQ)	    Bất đồng bộ, đảm bảo thứ tự	    Xử lý bất đồng bộ, yêu cầu độ tin cậy cao	            Phức tạp khi debug, độ trễ lớn hơn
 HTTP (REST)	                Đồng bộ, phổ biến	            Giao tiếp nhanh và đơn giản giữa các service	        Không tối ưu cho tác vụ dài, mở rộng hạn chế
 gRPC	                    Đồng bộ, hiệu năng cao	        Giao tiếp nhanh, dịch vụ nội bộ và yêu cầu streaming	Khó debug, tích hợp client phức tạp
-

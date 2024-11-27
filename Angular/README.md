@@ -100,3 +100,15 @@ trackBy trong ngFor và throttling, debouncing events giúp giảm số lần c�
 
 Đúng về ngOnInit: ngOnInit là lifecycle hook được gọi sau khi Angular đã khởi tạo tất cả @Input properties, giúp đảm bảo các giá trị đầu vào đã sẵn sàng trước khi thực hiện bất kỳ logic khởi tạo nào.
 
+## Clone interface nhưng làm cho các trường thành optional
+sử dụng Partial
+
+interface User {
+  id: number;
+  name: string;
+  email: string;
+}
+
+type OptionalUser = Partial<User>;
+
+## map, switchMap, mergeMap, concatMap

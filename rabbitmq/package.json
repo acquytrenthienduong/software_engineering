@@ -1,0 +1,18 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "## 1. Giới thiệu RabbitMQ as a Service (RaaS) là dịch vụ cung cấp khả năng khởi tạo, quản lý và giám sát các RabbitMQ instances trên nền tảng VM, sử dụng container để đơn giản hóa việc triển khai và mở rộng.",
+  "main": "producer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "rabbitmq-client": "^5.0.2",
+    "rabbitmq-stream-js-client": "^0.6.0"
+  }
+}
